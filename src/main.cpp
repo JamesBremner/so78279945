@@ -18,12 +18,6 @@ struct sData
     std::vector<double> minWidth{32, 32, 32, 32};
     std::vector<double> maxWidth{59, 64, 72, 70};
 
-    std::vector<double> minWidthInterp;
-    std::vector<double> maxWidthInterp;
-
-    // interpolate data
-    void interp();
-
 } theData;
 
 class cGUI : public cStarterGUI
